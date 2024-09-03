@@ -37,56 +37,12 @@ main {
     padding: 20px;
 }
 
-.sobre-mim, .formacao-educacional {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+.intro {
+    text-align: center;
 }
 
-.sobre-mim h1, .formacao-educacional h1 {
-    color: #333;
-}
-
-.sobre-mim p, .formacao-educacional p {
-    line-height: 1.6;
-    color: #555;
-}
-
-.formacao-educacional p strong {
-    color: #000;
-    font-weight: bold;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #575757;
+.foto-perfil {
+    max-width: 200px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular, se desejar */
+    margin: 20px 0;
 }
